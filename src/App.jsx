@@ -6,7 +6,7 @@ function App() {
   return (
     <Container fluid className="my-5">
       <Container>
-        <Accordions />
+        <AccordionsWithUseEffect />
       </Container>
     </Container>
   );

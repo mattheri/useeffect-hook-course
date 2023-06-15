@@ -29,8 +29,10 @@ const AccordionWithUseEffect = (props) => {
   };
 
   useEffect(() => {
-    if (props.active === props.value && !name) {
+    if (props.active === props.value) {
       getName();
+    } else {
+      setName("");
     }
   }, [props.active]);
 
