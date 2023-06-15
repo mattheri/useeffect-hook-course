@@ -13,7 +13,7 @@ const Accordion = (props) => {
   };
 
   return (
-    <div onClick={onClick} className={classnames.join(" ")}>
+    <div className={classnames.join(" ")}>
       <button onClick={onClick} className="accordion__button">
         {props.title}
       </button>
